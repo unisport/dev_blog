@@ -1,4 +1,4 @@
-PY?=python3
+PY?=python2
 PELICAN?=pelican
 PELICANOPTS=
 
@@ -17,7 +17,7 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
-S3_BUCKET=unisport-dev-blog
+S3_BUCKET=dev.unisportstore.com
 
 CLOUDFILES_USERNAME=my_rackspace_username
 CLOUDFILES_API_KEY=my_rackspace_api_key
