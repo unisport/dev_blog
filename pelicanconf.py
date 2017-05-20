@@ -7,6 +7,9 @@ SITENAME = 'Unisport Engineering'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['static']
+ARTICLE_PATHS = ['articles']
+PAGE_PATHS = ['pages']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -32,4 +35,27 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+THEME = 'theme/'
+
+HEADER_COVER = 'theme/images/header.jpg'
+SOCIAL = (
+    ('twitter', 'https://twitter.com/unisportlife'),
+    ('github', 'https://github.com/unisport/'),
+    ('facebook', 'https://www.facebook.com/unisportstore'),
+)
+
+COLOR_SCHEME_CSS = 'tomorrow_night.css'
+
+AUTHORS_BIO = {
+  'razius': {
+    'name': 'Silviu Tantos',
+    'image': 'https://avatars0.githubusercontent.com/u/1162035?v=3&s=400',
+    'website': 'http://razius.com',
+    'location': 'Copenhagen',
+    'bio': 'Bit herder and brewer of dark magic potions.'
+  }
+}
+
+CSS_OVERRIDE = ['static/css/override.css']
