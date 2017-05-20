@@ -39,7 +39,7 @@ RELATIVE_URLS = True
 
 THEME = 'theme/'
 
-HEADER_COVER = 'theme/images/header.jpg'
+HEADER_COVER = 'static/images/header.jpg'
 SOCIAL = (
     ('twitter', 'https://twitter.com/unisportlife'),
     ('github', 'https://github.com/unisport/'),
