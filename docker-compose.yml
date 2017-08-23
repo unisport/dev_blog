@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  dev_blog:
+    build: .
+    ports:
+      - 3011:80
+    volumes:
+      - .:/mnt/:cached
+    working_dir: /mnt/
