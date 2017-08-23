@@ -6,4 +6,5 @@ services:
       - 3011:80
     volumes:
       - .:/mnt/:cached
+      - $HOME/.aws:/root/.aws
     working_dir: /mnt/
