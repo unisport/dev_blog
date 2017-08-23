@@ -1,8 +1,6 @@
 Jobs
 ====
-
 :date: 2017-05-13 10:20
-:slug: jobs
 
 Python Developer
 ----------------
