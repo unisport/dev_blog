@@ -49,13 +49,13 @@ SOCIAL = (
 COLOR_SCHEME_CSS = 'tomorrow_night.css'
 
 AUTHORS_BIO = {
-  'razius': {
-    'name': 'Silviu Tantos',
-    'image': 'https://avatars0.githubusercontent.com/u/1162035?v=3&s=400',
-    'website': 'http://razius.com',
-    'location': 'Copenhagen',
-    'bio': 'Bit herder and brewer of dark magic potions.'
-  }
+    'razius': {
+        'name': 'Silviu Tantos',
+        'image': 'https://avatars0.githubusercontent.com/u/1162035?v=3&s=400',
+        'website': 'http://razius.com',
+        'location': 'Copenhagen',
+        'bio': 'Bit herder and brewer of dark magic potions.',
+    },
 }
 
 CSS_OVERRIDE = ['static/css/override.css']

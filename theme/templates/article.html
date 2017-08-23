@@ -77,7 +77,7 @@
         {% endif %}
         <span class="post-meta">
             {% for author in article.authors %}
-                <a href="{{ SITEURL }}/{{ author.url }}">{{ author|capitalize }}</a>
+                <a href="{{ SITEURL }}/{{ author.url }}">{{ AUTHORS_BIO[author.name.lower()].name }}</a>
             {% endfor %}
             | <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time>
         </span>
@@ -137,7 +137,7 @@
                         </figure>
                     {% endif %}
                     <div class="post-author-bio">
-                        <h4 class="post-author-name"><a href="{{ SITEURL }}/{{author.url}}">{{author.name | capitalize}}</a></h4>
+                        <h4 class="post-author-name"><a href="{{ SITEURL }}/{{author.url}}">{{AUTHORS_BIO[author.name.lower()].name}}</a></h4>
                         {% if AUTHORS_BIO[author.name.lower()].bio %}
                             <p class="post-author-about">{{AUTHORS_BIO[author.name.lower()].bio}}</p>
                         {% endif %}
