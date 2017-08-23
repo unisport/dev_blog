@@ -39,15 +39,16 @@ RELATIVE_URLS = True
 
 THEME = 'theme/'
 
-HEADER_COVER = 'static/images/header.jpg'
 SOCIAL = (
     ('twitter', 'https://twitter.com/unisportlife'),
     ('github', 'https://github.com/unisport/'),
     ('facebook', 'https://www.facebook.com/unisportstore'),
 )
 
-COLOR_SCHEME_CSS = 'tomorrow_night.css'
-
+# Theme settings
+HEADER_COVER = 'static/images/header.jpg'
+CSS_OVERRIDE = ['static/css/override.css']
+COLOR_SCHEME_CSS = 'monokai.css'
 AUTHORS_BIO = {
     'razius': {
         'name': 'Silviu Tantos',
@@ -57,5 +58,3 @@ AUTHORS_BIO = {
         'bio': 'Bit herder and brewer of dark magic potions.',
     },
 }
-
-CSS_OVERRIDE = ['static/css/override.css']

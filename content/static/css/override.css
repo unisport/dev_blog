@@ -5,3 +5,42 @@
 pre, code {
     font-size: 1.4rem;
 }
+
+.post-title a {
+    color: #0ABF5A;
+}
+
+.post-content a {
+   color: #0ABF5A;
+    border-bottom: 0;
+}
+
+pre {
+    border-left: solid 5px #0ABF5A;
+    line-height: 20px;
+}
+
+.cover-active .nav-button a {
+    color: #000000;
+    border-color: #000000;
+}
+
+h1 {
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.figures strong {
+    font-size: 5rem;
+}
+
+.figures td:after {
+    background: transparent;
+}
+
+table.figures, .figures td {
+    border: 0;
+}
+
+.align-center td {
+    text-align: center
+}
